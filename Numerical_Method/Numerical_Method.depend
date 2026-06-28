@@ -1,0 +1,119 @@
+# depslib dependency file v1.0
+1782546668 source:d:\numerics\numerical_method\expressionparser.cpp
+	"ExpressionParser.h"
+	<iostream>
+	<sstream>
+	<cmath>
+	<vector>
+
+1782318904 d:\numerics\numerical_method\expressionparser.h
+	<string>
+	<vector>
+
+1782618208 source:d:\numerics\numerical_method\main.cpp
+	<iostream>
+	"Utility.h"
+	"RootFinding.h"
+	"LinearMethods.h"
+	"Interpolation.h"
+	"Integration.h"
+
+1782445549 d:\numerics\numerical_method\rootfinding.h
+	"ExpressionParser.h"
+	<vector>
+
+1782545126 source:d:\numerics\numerical_method\rootfinding.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<limits>
+	"RootFinding.h"
+	"Utility.h"
+
+1782618258 source:d:\numerics\numerical_method\linearmethods.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<chrono>
+	"LinearMethods.h"
+	"Utility.h"
+	"GaussJordan.h"
+	"LinearHelper.h"
+	"Jacobi.h"
+
+1782487870 d:\numerics\numerical_method\linearmethods.h
+
+1782468661 d:\numerics\numerical_method\utility.h
+	<string>
+
+1782468690 source:d:\numerics\numerical_method\utility.cpp
+	"Utility.h"
+	<iostream>
+	<iomanip>
+	<sstream>
+	<cmath>
+	<limits>
+
+1782546650 source:d:\numerics\numerical_method\gaussjordan.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<chrono>
+	"GaussJordan.h"
+	"LinearHelper.h"
+	"Utility.h"
+
+1782473251 d:\numerics\numerical_method\gaussjordan.h
+
+1782491418 d:\numerics\numerical_method\linearhelper.h
+
+1782491525 source:d:\numerics\numerical_method\linearhelper.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	"LinearHelper.h"
+	"Utility.h"
+
+1782546572 source:d:\numerics\numerical_method\integration.cpp
+	<iostream>
+	<iomanip>
+	<vector>
+	"Integration.h"
+	"ExpressionParser.h"
+	"Utility.h"
+
+1782496902 d:\numerics\numerical_method\integration.h
+
+1782620580 source:d:\numerics\numerical_method\interpolation.cpp
+	<iomanip>
+	<vector>
+	<chrono>
+	"Interpolation.h"
+	"Utility.h"
+	<iomanip>
+	<vector>
+	"Integration.h"
+	"ExpressionParser.h"
+	"Utility.h"
+	<iostream>
+	<iomanip>
+	<vector>
+	<chrono>
+	"Interpolation.h"
+	"Utility.h"
+
+1782492221 d:\numerics\numerical_method\interpolation.h
+
+1782618255 source:d:\numerics\numerical_method\jacobi.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<vector>
+	<chrono>
+	"Jacobi.h"
+	"LinearHelper.h"
+	"Utility.h"
+
+1782483528 d:\numerics\numerical_method\jacobi.h
+	<vector>
+
